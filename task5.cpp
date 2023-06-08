@@ -4,7 +4,7 @@ class BOOK
 {
     int BOOK_NO,numcopies;
     char BOOKTITLE[20];
-    float PRICE,cost;
+    float PRICE,cost; 
 
     float TOTAL_COST()
     {

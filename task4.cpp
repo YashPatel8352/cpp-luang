@@ -10,16 +10,16 @@ class yash
     {
         if(Distance<=1000)
         {
-            cout<<"500";
+            return 500;
         }
         else if(Distance>=1000 && Distance<=2000)
         {
-            cout<<"1100";
+            return 1100;
         }
         //more than 2000
         else
         {
-            cout<<"2200";
+            return 2200;
         }
     }
     public:
@@ -32,7 +32,7 @@ class yash
          cout<<"Enter Distance: ";
         cin>>Distance;
 
-        calf= CALFUEL()
+        calf= CALFUEL();
     }
     void SHOWINFO()
     {
