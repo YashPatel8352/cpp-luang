@@ -18,8 +18,8 @@ friend Box operator++(Box);
 Box operator++(Box x)
 {
     Box t;  
-    t.l= ++x.l ;
-    t.w= ++x.w ;
+    t.l= ++x.l;
+    t.w= ++x.w;
     return t;
 }
 
