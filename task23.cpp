@@ -39,7 +39,7 @@ class Bank
     }
 };
 
-int main() 
+nt imain() 
 {
     Bank account;
     int choice;
